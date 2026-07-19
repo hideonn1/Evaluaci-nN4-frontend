@@ -86,7 +86,11 @@ Se utilizaron asistentes de Inteligencia Artificial (LLMs) como Gemini 3.1 Pro y
 *(Adicionalmente, el formulario incluye una pequeña funcionalidad donde simula dar una "Sugerencia generada por IA" dependiendo de la categoría que se esté seleccionando).*
 
 ## Capturas de pantalla
-*(Añadir aquí las imágenes de la aplicación funcionando, demostrando el CRUD, la persistencia y los filtros)*
+![Captura 1](assets/Shot-2026-07-19-193730.png)
+![Captura 2](assets/Shot-2026-07-19-193800.png)
+![Captura 3](assets/Shot-2026-07-19-193828.png)
+![Captura 4](assets/Shot-2026-07-19-193847.png)
+![Captura 5](assets/Shot-2026-07-19-193949.png)
 
 ## Conclusiones
 El desarrollo de este proyecto demostró la importancia de separar las responsabilidades dentro del ecosistema React. La construcción de componentes reutilizables y la delegación de la lógica de almacenamiento a *Custom Hooks* permitió mantener el código de la vista (`page.tsx`) limpio y enfocado únicamente en la orquestación. Además, comprender las diferencias de alcance (scope) entre `LocalStorage`, `SessionStorage` y `Cookies` resultó fundamental para diseñar una experiencia de usuario sólida donde cada dato persiste exactamente el tiempo que debe hacerlo, logrando una SPA altamente funcional sin depender de una base de datos backend tradicional.
