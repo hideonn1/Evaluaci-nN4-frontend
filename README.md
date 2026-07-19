@@ -2,9 +2,8 @@
 
 Aplicación web tipo SPA (Single Page Application) desarrollada para administrar y controlar los recursos tecnológicos de un laboratorio, reemplazando el registro manual para evitar la pérdida de información y la duplicidad de datos.
 
-## Integrantes
-- [Nombre del Estudiante 1]
-- [Nombre del Estudiante 2]
+## Integrante
+- Pedro Lorca
 
 ## Objetivo
 El propósito de esta aplicación es proveer una interfaz moderna, rápida y centralizada que permita a los administradores de un laboratorio realizar un seguimiento preciso del inventario tecnológico. Permite registrar, editar, visualizar y eliminar recursos (CRUD), manteniendo la información guardada localmente sin necesidad de una base de datos externa.
@@ -21,7 +20,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/hideonn1/Evaluaci-nN4-frontend.git
    cd evaluacion4-frontend
    ```
 
@@ -79,7 +78,7 @@ El formulario de recursos está protegido por el archivo `validations.ts`. Antes
 Si alguna de estas condiciones falla, el formulario intercepta el envío (no se guarda en Local Storage) y muestra un mensaje de alerta en color rojo justo debajo del campo problemático.
 
 ## Uso de IA
-Se utilizaron asistentes de Inteligencia Artificial (LLMs) durante el desarrollo para:
+Se utilizaron asistentes de Inteligencia Artificial (LLMs) como Gemini 3.1 Pro y Claude Sonnet 4.6 durante el desarrollo para:
 - Definir la estructura arquitectónica inicial de componentes y custom hooks en Next.js.
 - Generar rápidamente la extensa lista de datos de prueba estructurados (`mockData`).
 - Asistir en la refactorización profunda de estilos CSS tradicionales hacia clases utilitarias y responsivas con **Tailwind CSS**.

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -14,7 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <head>
+      <head />
+      <body className={`${inter.className} flex flex-col min-h-screen bg-background text-foreground`}>
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
             try {
@@ -23,8 +25,6 @@ export default function RootLayout({
             } catch(e) {}
           })();
         `}} />
-      </head>
-      <body className={`${inter.className} flex flex-col min-h-screen bg-background text-foreground`}>
         {children}
         <Footer />
       </body>
